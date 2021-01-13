@@ -1,6 +1,8 @@
 import random
 import string
 
+print (random.choice(string.ascii_lowercase + string.ascii_uppercase))
+
 a=lambda : ''.join(random.choice(string.ascii_lowercase + string.ascii_uppercase) for _ in range(8))
 dic ={}
 for _ in range(200):
