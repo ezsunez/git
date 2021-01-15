@@ -7,3 +7,12 @@ c:\users\ezsun\documents\visual studio 2015\Projects\WindowsFormsApplication3\Wi
 c:\users\ezsun\documents\visual studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.exe
 c:\users\ezsun\documents\visual studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.pdb
 c:\users\ezsun\documents\visual studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\ezsun\Desktop\git\处理卡密\WindowsFormsApplication3\bin\x86\Debug\WindowsFormsApplication3.exe.config
+C:\Users\ezsun\Desktop\git\处理卡密\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.exe
+C:\Users\ezsun\Desktop\git\处理卡密\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.pdb
+C:\Users\ezsun\Desktop\git\处理卡密\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\ezsun\Desktop\git\处理卡密\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.Form1.resources
+C:\Users\ezsun\Desktop\git\处理卡密\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\ezsun\Desktop\git\处理卡密\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\ezsun\Desktop\git\处理卡密\WindowsFormsApplication3\bin\x86\Debug\WindowsFormsApplication3.exe
+C:\Users\ezsun\Desktop\git\处理卡密\WindowsFormsApplication3\bin\x86\Debug\WindowsFormsApplication3.pdb
