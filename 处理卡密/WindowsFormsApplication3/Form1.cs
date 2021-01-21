@@ -67,5 +67,22 @@ namespace WindowsFormsApplication3
             }
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("https://wx.qq.com/");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string a = webBrowser1.Document.Body.InnerHtml;
+            string b = a.Substring(a.IndexOf("MMActualContent"));
+            string pattern = @"(?<=MMActualContent).*?您在中国联通网上营业厅购买.*?(?=</pre>)";
+            Regex regex = new Regex(pattern);
+            string[] arr = regex.Matches(b).Cast<Match>().Select(m=>m.Value).ToArray();
+           b= string.Join("\n", arr);
+            richTextBox1.Text = b;
+            button1_Click(sender, e);
+        }
     }
 }
