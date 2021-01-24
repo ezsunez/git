@@ -45,7 +45,7 @@ urls = ['http://httpbin.org/anything/{i}'.format(i=i) for i in range(100)]
 time_async = 0
 time_threads = 0
 
-for i in range(5):
+for i in range(1):
     async_func()
     time.sleep(3)
     threads_func()
@@ -53,3 +53,4 @@ for i in range(5):
 
 print('async:\t', time_async)
 print('threads\t', time_threads)
+print('done')
