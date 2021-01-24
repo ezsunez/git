@@ -1,0 +1,8 @@
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\bin\Debug\卡用量.exe
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\bin\Debug\卡用量.pdb
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\Debug\卡用量.Form1.resources
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\Debug\卡用量.Properties.Resources.resources
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\Debug\卡用量.csproj.GenerateResource.Cache
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\Debug\卡用量.exe
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\Debug\卡用量.pdb

@@ -1,0 +1,24 @@
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（asua）\mini_download_new\bin\x86\Debug\mini_download_new.exe
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（asua）\mini_download_new\bin\x86\Debug\mini_download_new.pdb
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（asua）\mini_download_new\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（asua）\mini_download_new\obj\x86\Debug\mini_download_new.Form1.resources
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（asua）\mini_download_new\obj\x86\Debug\mini_download_new.Properties.Resources.resources
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（asua）\mini_download_new\obj\x86\Debug\mini_download_new（asua）.csproj.GenerateResource.Cache
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（asua）\mini_download_new\obj\x86\Debug\mini_download_new.exe
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（asua）\mini_download_new\obj\x86\Debug\mini_download_new.pdb
+C:\Documents and Settings\Administrator\桌面\mini_download_new（asua）\mini_download_new\obj\x86\Debug\mini_download_new.exe
+C:\Documents and Settings\Administrator\桌面\mini_download_new（asua）\mini_download_new\obj\x86\Debug\mini_download_new.pdb
+C:\Documents and Settings\Administrator\桌面\mini_download_new（asua）\mini_download_new\bin\x86\Debug\mini_download_new.exe
+C:\Documents and Settings\Administrator\桌面\mini_download_new（asua）\mini_download_new\bin\x86\Debug\mini_download_new.pdb
+C:\Documents and Settings\Administrator\桌面\mini_download_new（asua）\mini_download_new\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\mini_download_new（asua）\mini_download_new\obj\x86\Debug\mini_download_new.Form1.resources
+C:\Documents and Settings\Administrator\桌面\mini_download_new（asua）\mini_download_new\obj\x86\Debug\mini_download_new.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\mini_download_new（asua）\mini_download_new\obj\x86\Debug\mini_download_new（asua）.csproj.GenerateResource.Cache
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（dell-1)\mini_download_new\obj\x86\Debug\mini_download_new.exe
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（dell-1)\mini_download_new\obj\x86\Debug\mini_download_new.pdb
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（dell-1)\mini_download_new\bin\x86\Debug\mini_download_new.exe
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（dell-1)\mini_download_new\bin\x86\Debug\mini_download_new.pdb
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（dell-1)\mini_download_new\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（dell-1)\mini_download_new\obj\x86\Debug\mini_download_new.Form1.resources
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（dell-1)\mini_download_new\obj\x86\Debug\mini_download_new.Properties.Resources.resources
+C:\Users\恩泽孙\Desktop\mini下载新2015-6-9\mini_download_new（dell-1)\mini_download_new\obj\x86\Debug\mini_download_new（asua）.csproj.GenerateResource.Cache

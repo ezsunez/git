@@ -1,0 +1,8 @@
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\mini_download_new\mini_download_new\bin\Debug\mini_download_new.exe
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\mini_download_new\mini_download_new\bin\Debug\mini_download_new.pdb
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\mini_download_new\mini_download_new\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\mini_download_new\mini_download_new\obj\Debug\mini_download_new.Form1.resources
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\mini_download_new\mini_download_new\obj\Debug\mini_download_new.Properties.Resources.resources
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\mini_download_new\mini_download_new\obj\Debug\mini_download_new.csproj.GenerateResource.Cache
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\mini_download_new\mini_download_new\obj\Debug\mini_download_new.exe
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\mini_download_new\mini_download_new\obj\Debug\mini_download_new.pdb

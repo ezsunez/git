@@ -1,0 +1,26 @@
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\bin\x86\Debug\卡用量.exe
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\bin\x86\Debug\卡用量.pdb
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\x86\Debug\卡用量.Form1.resources
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\x86\Debug\卡用量.Properties.Resources.resources
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\x86\Debug\卡用量.csproj.GenerateResource.Cache
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\x86\Debug\卡用量.exe
+C:\Users\恩泽孙\Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\x86\Debug\卡用量.pdb
+C:\Documents and Settings\simservir\桌面\卡用量\卡用量\obj\x86\Debug\卡用量.exe
+C:\Documents and Settings\simservir\桌面\卡用量\卡用量\obj\x86\Debug\卡用量.pdb
+C:\Documents and Settings\simservir\桌面\卡用量\卡用量\bin\x86\Debug\卡用量.exe
+C:\Documents and Settings\simservir\桌面\卡用量\卡用量\bin\x86\Debug\卡用量.pdb
+C:\Documents and Settings\simservir\桌面\卡用量\卡用量\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\simservir\桌面\卡用量\卡用量\obj\x86\Debug\卡用量.Form1.resources
+C:\Documents and Settings\simservir\桌面\卡用量\卡用量\obj\x86\Debug\卡用量.Properties.Resources.resources
+C:\Documents and Settings\simservir\桌面\卡用量\卡用量\obj\x86\Debug\卡用量.csproj.GenerateResource.Cache
+C:\Documents and Settings\simservir\My Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\x86\Debug\卡用量.exe
+C:\Documents and Settings\simservir\My Documents\Visual Studio 2008\Projects\卡用量\卡用量\obj\x86\Debug\卡用量.pdb
+D:\Project\卡用量\卡用量\obj\x86\Debug\卡用量.exe
+D:\Project\卡用量\卡用量\obj\x86\Debug\卡用量.pdb
+D:\Project\卡用量\卡用量\bin\x86\Debug\卡用量.exe
+D:\Project\卡用量\卡用量\bin\x86\Debug\卡用量.pdb
+D:\Project\卡用量\卡用量\obj\x86\Debug\卡用量.csprojResolveAssemblyReference.cache
+D:\Project\卡用量\卡用量\obj\x86\Debug\卡用量.Form1.resources
+D:\Project\卡用量\卡用量\obj\x86\Debug\卡用量.Properties.Resources.resources
+D:\Project\卡用量\卡用量\obj\x86\Debug\卡用量.csproj.GenerateResource.Cache
