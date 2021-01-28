@@ -70,7 +70,9 @@ namespace WindowsFormsApplication3
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("https://wx.qq.com/");
+            //webBrowser1.Navigate("https://wx.qq.com/");
+            webBrowser1.Navigate("www.baidu.com");
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -83,6 +85,11 @@ namespace WindowsFormsApplication3
            b= string.Join("\n", arr);
             richTextBox1.Text = b;
             button1_Click(sender, e);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("https://wx.qq.com/");
         }
     }
 }

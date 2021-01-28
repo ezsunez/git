@@ -1,0 +1,163 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Signin Template · Bootstrap v5.0</title>
+    <script src="../static/js/jquery.js"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../static/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Favicons
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+-->
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+
+  </head>
+  <body class="text-center">
+    
+<main class="form-signin">
+
+    <img class="mb-4" src="../static/img/bootstrap.png" alt="" width="72" height="57">
+      <div style="margin: 7%;font-size: 18px;width: 50%;margin-left: 50%;transform: translate(-50%,0);">
+				{% ifequal status "login" %}
+				<div style="display: inline-block;width: 30%;">
+					<a id="login-click" class="select active">登陆</a>
+				</div>
+				<div style="display: inline-block;width: 30%;">
+					<a id="register-click" class="select">注册</a>
+				</div>
+				{% else %}
+				<div style="display: inline-block;width: 30%;">
+					<a id="login-click" class="select">登陆</a>
+				</div>
+				<div style="display: inline-block;width: 30%;">
+					<a id="register-click" class="select active">注册</a>
+				</div>
+				{%endifequal%}
+			</div>
+  	{% ifequal status "login" %}
+        {% ifequal correct "t" %}
+            <label class="visually-hidden" > incorrect username or password </label>
+            {% else %}
+            <label id="al"> incorrect username or password </label>
+            {%endifequal%}
+			<form action="/login/" method="post" id="login">
+			{% else %}
+			<form action="/login/" method="post" id="login" class="visually-hidden">
+			{%endifequal%}
+                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+                <input type="text" name="username" class="form-control" placeholder="Username" required autofocus>
+                <input type="password" name="password" class="form-control" placeholder="Password" required>
+                {%csrf_token%}
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+			</form>
+    {% ifequal status "login" %}
+			<form action="/register/" method="post" id="register" class="visually-hidden">
+			{% else %}
+			<form action="/register/" method="post" id="register">
+			{%endifequal%}
+                <h1 class="h3 mb-3 fw-normal">Please sign up</h1>
+                <input type="text" name="username" class="form-control" placeholder="Username" required autofocus>
+                <input type="password" name="password1" class="form-control" placeholder="Password" required>
+                <input type="password" name="password2" class="form-control" placeholder="Repeat Password" required>
+                {%csrf_token%}
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+			</form>
+</main>
+<script>
+			$(document).ready(function () {
+
+				$('#login-click').click(function(){
+					$('#login-click').addClass("active");
+					$('#login').removeClass('visually-hidden');
+					$('#register-click').removeClass("active");
+					$('#register').addClass('visually-hidden');
+					$('#al').addClass('visually-hidden');
+				})
+				$('#register-click').click(function(){
+					$('#login-click').removeClass("active");
+					$('#login').addClass('visually-hidden');
+					$('#register-click').addClass("active");
+					$('#register').removeClass('visually-hidden');
+					$('#al').addClass('visually-hidden');
+				})
+			});
+		</script>
+    
+  </body>
+</html>

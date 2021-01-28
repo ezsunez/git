@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+        <link rel="stylesheet" href="../static/css/bootstrap.css" />
+        <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
+</head>
+<style>
+        body {
+background-color: #CCC;
+}
+</style>
+<body>
+        <div class="container">
+                <h1>Django+Bootstrap</h1>
+                <div class="nav-scroller py-1 mb-2">
+                        <nav class="nav d-flex justify-content-between" style="background-color: black;">
+                          <a class="p-2 link-secondary" href="#">World</a>
+                          <a class="p-2 link-secondary" href="#">U.S.</a>
+                          <a class="p-2 link-secondary" href="#">Technology</a>
+                          <a class="p-2 link-secondary" href="#">Design</a>
+                          <a class="p-2 link-secondary" href="#">Culture</a>
+                          <a class="p-2 link-secondary" href="#">Business</a>
+
+                        </nav>
+                 </div>
+                 <div class="row">
+                        <div class='col-md-9'>
+                                <h2>{{current_article.headline}}</h2>
+                                {{current_article.context}}
+                        </div>
+
+                        <div class="col-md-3">
+                            <h2>Articals</h2>
+                                <ol class="list-unstyled mb-0">
+                                       {%  for i in articles %}
+                                           <li>
+                                            <a href='/articles/?name={{ i.headline }}'>{{ i.headline }}</a>
+                                           </li>
+                                        {% endfor %}
+                                
+                                </ol>
+                        </div>
+                </div>
+         </div>
+</body>
+</html>
