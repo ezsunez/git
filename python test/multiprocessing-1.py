@@ -20,7 +20,7 @@ if __name__=='__main__':
     qq=Queue()
     p=multiprocessing.Process(target=func,args=(qq,))
     p.start()
-    for i in range(5):
+    for i in d.keys():
         qq.put(i)
         print('put',i)
         sleep(2)

@@ -3,14 +3,19 @@ from firstapp.models import Article, Profile
 from django.contrib.auth.forms import  UserCreationForm
 from django.contrib.auth import login
 from django.contrib.auth.forms import AuthenticationForm
-
+from django.db.models import Q
 # Create your views here.
 def first(request):
     html = "Django Response"
     return HttpResponse(html)
-    # return render(request,'test.html')
+
 def second(request):
-    return render(request,'test.html')
+    first_artical=Article.objects.all().first()
+    artical_lst=Article.objects.filter(~Q(headline__contains=first_artical.headline))
+    hmap={}
+    hmap['current_article']=first_artical
+    hmap['articles']=artical_lst
+    return render(request,'test.html',hmap)
 
 def three(request):
     hmap={}
@@ -31,9 +36,11 @@ def index_register (request):
         form = UserCreationForm(request.POST)
         print(form.is_valid())
         if form.is_valid():
-            form.save()
+            user=form.save()
+            p=Profile(user=user)
+            p.nickname=form.data['nickname']
+            p.save()
             return redirect(to="login")
-            # return HttpResponse("Register Success")0
     content = {}
     content['form'] = form
     content['status']='register'
@@ -56,5 +63,4 @@ def index_login(request):
 
     content['form']=form
     content['status'] = 'login'
-
     return render(request,'index.html',content)

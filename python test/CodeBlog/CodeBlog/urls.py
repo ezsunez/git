@@ -1,4 +1,4 @@
-"""firstweb URL Configuration
+"""CodeBlog URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -14,15 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-import firstapp.views as fviews
-from django.conf.urls import url
+from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$',fviews.index_login),
-    url(r'^blog/',fviews.second),
-    url(r'articles',fviews.three),
-    url(r'register',fviews.index_register),
-    url(r'login',fviews.index_login,name="login")
+    path('blog/', include('blog.url')),
+    path('', include('blog.url')),
+
 ]

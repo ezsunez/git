@@ -16,8 +16,8 @@ def func(d):
 
 def funt(d,i):
     d.put(i)
-    # sleep(2)
-    # print(i,current_thread())
+    sleep(2)
+    print(i,current_thread())
 
 
 

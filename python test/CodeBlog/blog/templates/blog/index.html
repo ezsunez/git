@@ -1,0 +1,10 @@
+{% extends 'blog/base_page.html' %}
+{% block content%}
+  <main class="px-3">
+    <h1>Sun's LeetCode Repo</h1>
+    <p class="lead">The blog is for record daily LeetCode submissions</p>
+    <p class="lead">
+      <a href="{% url 'blog:welcom' %}" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+    </p>
+  </main>
+ {% endblock %}

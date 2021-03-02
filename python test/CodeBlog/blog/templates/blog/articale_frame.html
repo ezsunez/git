@@ -1,0 +1,29 @@
+{% extends 'blog/base_page.html' %}
+{% block content%}
+  <main class="px-3">
+  <table>
+  <tr>
+  <td class=" col-1">
+ <div class="list-group">
+       {% if articals %}
+            {% for t in articals %}
+                 <a href="{% url 'blog:detail' a_id=t.id  %}" class="list-group-item list-group-item-action"  target ="ifm" >{{ t.title }}</a>
+            {% endfor %}
+      {% endif %}
+
+</div>
+  </td>
+  <td >
+        <div  >
+        <iframe  name="ifm" src="{% url 'blog:detail' a_id=id  %} " width="100%"  height="300px"></iframe>
+    </div>
+  </td>
+  </tr>
+  </table>
+
+  </main>
+ {% load static %}
+
+
+
+ {% endblock %}

@@ -11,4 +11,4 @@ def lee(A):
     return W-max(dp)
 
 
-print (lee(["abdc"]))
+print (lee(["ghi","def","abc"]))

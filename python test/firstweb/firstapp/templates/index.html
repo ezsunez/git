@@ -135,6 +135,10 @@ body {
                 <input type="text" name="username" class="form-control" placeholder="Username" required autofocus>
                 <input type="password" name="password1" class="form-control" placeholder="Password" required>
                 <input type="password" name="password2" class="form-control" placeholder="Repeat Password" required>
+{#                <form action="/register/" method="post" id="profile">#}
+                    <input type="text" name="nickname" class="form-control" placeholder="Nickname" >
+                    <input type="text" name="phone" class="form-control" placeholder="Phone" >
+{#                </form>#}
                 {%csrf_token%}
                 <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
 			</form>
